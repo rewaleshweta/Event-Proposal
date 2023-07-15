@@ -29,7 +29,7 @@ function EventList()
 
    //selected event
    useEffect(()=>{
-      fetch(`https://event-proposal-backend-5ouz.onrender.com/selectedEvent/${location.state}`)
+      fetch(`https://event-proposal-c3fx.onrender.com/selectedEvent/${location.state}`)
       .then((data)=>data.json())
       .then((res)=>{
          // console.log(res);
@@ -49,7 +49,7 @@ function EventList()
 
    //event list
    useEffect(()=>{
-      fetch('https://event-proposal-backend-5ouz.onrender.com/fetchingEventData')
+      fetch('https://event-proposal-c3fx.onrender.com/fetchingEventData')
       .then((data)=>data.json())
       .then((res)=>{
       //   console.log(res)

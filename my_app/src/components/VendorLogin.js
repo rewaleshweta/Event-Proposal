@@ -69,7 +69,7 @@ function VendorLogin()
         {
             if(th2)
             {
-            fetch('https://event-proposal-backend-5ouz.onrender.com/userLogin',{
+            fetch('https://event-proposal-c3fx.onrender.com/userLogin',{
                 method:"POST",
                 headers:{
                     "content-type":"application/json"
@@ -109,7 +109,7 @@ function VendorLogin()
         }
         if(th1===true)
         {
-            fetch('https://event-proposal-backend-5ouz.onrender.com/vendorLogin',{
+            fetch('https://event-proposal-c3fx.onrender.com/vendorLogin',{
                 method:"POST",
                 headers:{
                     "content-type":"application/json"
